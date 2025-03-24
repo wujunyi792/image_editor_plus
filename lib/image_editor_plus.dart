@@ -1359,7 +1359,7 @@ class _ImageCropperState extends State<ImageCropper> {
     if (widget.availableRatios.isNotEmpty) {
       currentRatio = widget.availableRatios.first.ratio;
     }
-    _controller.currentState?.rotate(right: true);
+    _controller.currentState?.rotate(degree: 90);
 
     super.initState();
   }
